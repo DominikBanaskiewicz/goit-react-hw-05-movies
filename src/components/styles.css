@@ -1,0 +1,9 @@
+.NavLink {
+  color: black;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.active {
+  color: orange;
+}
