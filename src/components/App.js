@@ -54,6 +54,7 @@ export const App = () => {
             <Route path="reviews" element={<Reviews />} />
           </Route>
           <Route path="/movies" element={<SearchMovies />} />
+          <Route path="*" element={<PopularMovies />} />
         </Routes>
       </Suspense>
     </div>
